@@ -1,38 +1,29 @@
-using System;
-using System.Drawing;
-using System.Collections;
-using System.Collections.Generic;
-					
-public class Program
-{
-	public static void Main()
-	{
-		Console.WriteLine("Hello World");
-	}
-}
-
 public class StringToColor
 {
     public Color Transfer(string name)
     {
-        Color transferResult;
+        Color transferResult = null;
 
         List<IColor> colors = new List<IColor>();
-
-        colors.Add(new Red());
+		colors.Add(new Red());
 		colors.Add(new Green());
 		colors.Add(new Blue());
-		
+
 		foreach(IColor item in colors)
 		{
 			if( item.GetType().Name.ToLower() == name.ToLower())
 			{
-				return item.GetColor();
+				transferResult = item.GetColor();
+				break;
 			}
 		}
-		
-		throw new ArgumentException("不正確的顏色名稱");
-    }
+	
+		if(transferResult !=null)
+			return transferResult;
+		else
+			throw new ArgumentException("不正確的顏色名稱");
+		}
+	}
 }
 
 interface IColor
@@ -50,7 +41,7 @@ public class Red : IColor
 
 public class Green : IColor
 {
-    public Color GetColor()
+	public Color GetColor()
     {
 		return Color.FromArgb(0xFF, 0x80, 0x80, 0x80);
     }
