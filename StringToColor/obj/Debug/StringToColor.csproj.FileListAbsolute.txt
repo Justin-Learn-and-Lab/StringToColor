@@ -1,0 +1,9 @@
+D:\JustinWorkSpace\StringToColor\StringToColor\bin\Debug\StringToColor.exe.config
+D:\JustinWorkSpace\StringToColor\StringToColor\bin\Debug\StringToColor.exe
+D:\JustinWorkSpace\StringToColor\StringToColor\bin\Debug\StringToColor.pdb
+D:\JustinWorkSpace\StringToColor\StringToColor\obj\Debug\StringToColor.csprojResolveAssemblyReference.cache
+D:\JustinWorkSpace\StringToColor\StringToColor\obj\Debug\StringToColor.Form1.resources
+D:\JustinWorkSpace\StringToColor\StringToColor\obj\Debug\StringToColor.Properties.Resources.resources
+D:\JustinWorkSpace\StringToColor\StringToColor\obj\Debug\StringToColor.csproj.GenerateResource.Cache
+D:\JustinWorkSpace\StringToColor\StringToColor\obj\Debug\StringToColor.exe
+D:\JustinWorkSpace\StringToColor\StringToColor\obj\Debug\StringToColor.pdb
